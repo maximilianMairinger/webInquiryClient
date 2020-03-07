@@ -1,0 +1,29 @@
+:host {
+  transition: background-color .6s;
+  border-radius: 2px;
+  height: 30px;
+}
+:host(:focus) {
+  transition: border .4s;
+}
+button-container {
+  display: flex;
+  height: 100%
+}
+button-text {
+  display: block;
+  font-size: 1em;
+  margin: auto 0;
+  padding: 0 15px;
+}
+
+:host {
+  border: 1px solid rgba(0,0,0,.14);
+  background: rgba(255, 255, 255, 0.377);
+}
+
+:host(:focus) {
+  border: 1px solid rgba(0,0,0,.6);
+}
+
+
