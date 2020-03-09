@@ -4,4 +4,15 @@ element-body {
   right: 0;
   top: 0;
   bottom: 0;
+  background: rgb(43, 43, 43);
+}
+
+mouse-dummy {
+  position: absolute;
+  width: 23.999999999999996px;
+  height: 23.999999999999996px;
+  background-image: url("./../../../res/img/cursor.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
